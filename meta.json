@@ -2,25 +2,21 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "bucket",
+            "title":"Bucket"
+        },
+        {
+            "id": "key",
+            "title": "Key"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "data",
+            "title":"Data"
         }
-      */
     ],
-    "title": "aws-s3-get" /* Required.A display name for the module */
+    "title": "aws-s3-get"
 }
